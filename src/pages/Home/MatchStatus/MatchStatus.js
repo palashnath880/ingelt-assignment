@@ -35,7 +35,7 @@ const MatchStatus = () => {
                     {matchs.length <= 0 && <p className='text-center text-red-500 bg-red-100 py-3 text-lg font-semibold rounded-md'>No Match Today</p>}
                     <div className='overflow-x-auto'>
                         {matchs.length > 0 &&
-                            <table className='table-fixed w-auto rounded-2xl overflow-hidden'>
+                            <table className='table-fixed w-auto min-w-full rounded-2xl overflow-hidden'>
                                 <thead className=''>
                                     <tr className='text-base 2xl:text-lg font-bold text-[#838181]'>
                                         <th className='py-3'>Match Status</th>
