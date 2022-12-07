@@ -5,7 +5,7 @@ import sliderImg from '../../../images/slider1.png';
 const Slider = () => {
     return (
         <div>
-            <div className='rounded-[30px] overflow-hidden relative'>
+            <div className='rounded-[30px] overflow-hidden relative z-10'>
                 <img src={sliderImg} className='w-full h-auto' alt='Slider thumbnail' />
                 <div className='absolute bottom-0 left-0 w-full pl-5 py-2 2xl:pl-14 2xl:py-7 bg-gradient-to-b from-[transparent] to-[#201616]'>
                     <h1 className='text-white text-xl md:text-3xl 2xl:text-5xl font-normal'>Juventus <span className='text-lg italic'>VS</span> Real Madrid</h1>

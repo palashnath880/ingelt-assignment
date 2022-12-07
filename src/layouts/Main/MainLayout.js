@@ -6,7 +6,7 @@ import Sidebar from '../../shared/Sidebar/Sidebar';
 const MainLayout = () => {
     return (
         <div className='flex flex-col md:flex-row gap-4'>
-            <div className='w-3/12 hidden lg:block'>
+            <div className='w-full md:w-3/12'>
                 <Navbar />
             </div>
             <div className='w-full md:w-6/12'>
