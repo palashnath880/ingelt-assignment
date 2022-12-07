@@ -1,6 +1,5 @@
 import React from 'react';
 import arrow from '../../images/arrow.svg';
-import { NavLink } from 'react-router-dom';
 import home from '../../images/home.svg';
 import blogs from '../../images/blogs.svg';
 import football from '../../images/football.svg';
@@ -10,9 +9,9 @@ import CustomNavLink from '../../components/NavLink/NavLink';
 
 const Navbar = () => {
     return (
-        <aside className='pt-12 min-h-screen relative border-r-4 border-[#20202D]'>
+        <aside className='pt-12 min-h-screen flex flex-col sticky top-0 right-0 border-r-4 border-[#20202D]'>
             <h1 className="text-center text-4xl uppercase text-white font-['Lexend_Mega'] font-normal">CRICNEWS</h1>
-            <nav className='px-6'>
+            <nav className='px-6 grow'>
                 <div className=''>
                     <h3 className='text-2xl font-bold text-white py-14 flex justify-between items-center'>
                         NavLinks
@@ -44,7 +43,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </nav>
-            <div className='absolute bottom-0 left-0 w-full rounded-t-[30px] bg-[#262735]'>
+            <div className='rounded-t-[30px] bg-[#262735]'>
                 <h1 className='text-center text-2xl font-bold text-white py-8'>Feeling Lucky Today?</h1>
             </div>
         </aside >
