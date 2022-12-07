@@ -23,6 +23,7 @@ const Navbar = () => {
                     </svg>}
                 </button>
             </div>
+            {/* Nav menu */}
             <nav className={`px-6 absolute lg:static duration-300 ${isMenuOpen ? '' : '-translate-x-full'} top-full lg:translate-x-0 left-0 w-full bg-[#161620] z-50 lg:flex-1`}>
                 <div className=''>
                     <h3 className='lg:text-lg 2xl:text-2xl font-bold text-white lg:py-5 2xl:py-14 flex justify-between items-center'>
