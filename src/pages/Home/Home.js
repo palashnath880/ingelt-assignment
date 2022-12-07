@@ -9,7 +9,7 @@ const Home = () => {
             <div className='mt-7 pb-6 border-b-2 border-[#20202D]'>
                 <Slider />
             </div>
-            <div>
+            <div className='mt-16'>
                 <MatchStatus />
             </div>
         </div>
