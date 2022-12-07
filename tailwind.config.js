@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     fontFamily: {
       'Inter': ["'Inter'"],
-      'Lexend_Mega': ["'Lexend Mega'"]
+      'Lexend_Mega': ["'Lexend Mega'"],
+      'bm-hanna': ["'bm-hanna-regular'"]
     }
   },
   plugins: [],

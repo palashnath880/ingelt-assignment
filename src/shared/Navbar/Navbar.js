@@ -10,7 +10,7 @@ import CustomNavLink from '../../components/NavLink/NavLink';
 
 const Navbar = () => {
     return (
-        <div className='pt-12 min-h-screen relative border-r-4 border-[#20202D]'>
+        <aside className='pt-12 min-h-screen relative border-r-4 border-[#20202D]'>
             <h1 className="text-center text-4xl uppercase text-white font-['Lexend_Mega'] font-normal">CRICNEWS</h1>
             <nav className='px-6'>
                 <div className=''>
@@ -47,7 +47,7 @@ const Navbar = () => {
             <div className='absolute bottom-0 left-0 w-full rounded-t-[30px] bg-[#262735]'>
                 <h1 className='text-center text-2xl font-bold text-white py-8'>Feeling Lucky Today?</h1>
             </div>
-        </div >
+        </aside >
     );
 }
 
