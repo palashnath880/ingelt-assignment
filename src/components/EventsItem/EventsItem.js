@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const EventsItem = ({ img }) => {
     return (
         <div className='!bg-cover mb-3.5 rounded-[21px] relative' style={{ background: `linear-gradient(180.78deg, rgba(0, 0, 0, 0.7) 31.5%, rgba(37, 0, 73, 0.31) 65.93%, #000000 99.33%), url(${img})` }}>
-            <div className='py-4 pl-11'>
-                <h2 className="font-['BM-HANNA'] text-[40px] text-white leading-normal">UFC</h2>
+            <div className='py-4 pl-3 lg:pl-4 2xl:pl-11'>
+                <h2 className="font-['BM-HANNA'] text-2xl lg:text-3xl 2xl:text-[40px] text-white leading-normal">UFC</h2>
                 <p className='text-base font-bold text-white'>Sport</p>
                 <p className='text-lg font-semibold text-white'>Today Events: 14</p>
                 <Link className='flex items-center text-white gap-2 font-semibold font-sm absolute right-3.5 bottom-3.5'>
